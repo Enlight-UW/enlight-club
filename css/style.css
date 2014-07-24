@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Changa+One|Bree+Serif);
+
+body {
+	background-image: url('../Background.jpg');
+	background-size: cover;
+	background-color: #6E6A5B;
+	background-repeat: no-repeat;
+    background-position:50% 50%;
+	/*background-position: 50% 50%;*/
+}
+
+h1 {
+	text-shadow: 1px 1px 1px #6E6A5B;
+	color: #ac0809;
+	font-family: 'Changa One';
+	font-size: 36px;
+	margin: 0px;
+	margin-top: 24px;
+}
+
+h6 {
+	margin: 0px;
+}
+
+h6.date {
+	text-align: center;
+	text-shadow: 1px 1px 1px #6E6A5B;
+	color: #ac0809;
+	font-family: 'Bree Serif';
+	font-size: 20px;
+	font-variant: small-caps;
+}
+
+div.container {
+	background-color: #F7F5E8;
+	border: 2px solid #E7D9C1;
+	box-shadow: 2px 2px 0px #6E6A5B;
+	max-width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.9;
+	padding: 32px;
+}
+
+div.container p {
+	font-family: 'Bree Serif';
+	color: #6E6A5B;
+	text-shadow: 1px 1px 1px #F7F5E8;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: #b70101;
+}
+
+a:hover {
+	color: #ac0809;
+}
+
+hr {
+	width: 90%;
+	border-color: #b70101;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
