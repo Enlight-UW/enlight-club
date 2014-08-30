@@ -17,4 +17,4 @@ def interested():
 
 
 print("enlight.club backend server running.")
-run(host='localhost', port=8081)
+run(host='enlight.club', port=8081)
