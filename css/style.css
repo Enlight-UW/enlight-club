@@ -1,66 +1,111 @@
 @import url(http://fonts.googleapis.com/css?family=Changa+One|Bree+Serif);
 
 body {
-	background-image: url('../Background.jpg');
-	background-size: cover;
-	background-color: #6E6A5B;
-	background-repeat: no-repeat;
-    background-position:50% 50%;
-	/*background-position: 50% 50%;*/
+    background-image: url('../Background.jpg');
+    background-size: cover;
+    background-color: #6E6A5B;
+    background-repeat: no-repeat;
+    background-position:0% 0%;
+    /*background-position: 50% 50%;*/
 }
 
 h1 {
-	text-shadow: 1px 1px 1px #6E6A5B;
-	color: #ac0809;
-	font-family: 'Changa One';
-	font-size: 36px;
-	margin: 0px;
-	margin-top: 24px;
+    margin: 0px;
+}
+
+/* Blog post or inter-page titles. */
+h1.post-title {
+    text-shadow: 1px 1px 1px #6E6A5B;
+    color: #ac0809;
+    font-family: 'Changa One';
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 4px;
 }
 
 h6 {
-	margin: 0px;
+    margin: 0px;
 }
 
+/* Use for dating each blog post */
 h6.date {
-	text-align: center;
-	text-shadow: 1px 1px 1px #6E6A5B;
-	color: #ac0809;
-	font-family: 'Bree Serif';
-	font-size: 20px;
-	font-variant: small-caps;
+    text-align: center;
+    text-shadow: 1px 1px 1px #6E6A5B;
+    color: #ac0809;
+    font-family: 'Bree Serif';
+    font-size: 20px;
+    font-variant: small-caps;
+    margin-top: 32px;
 }
 
-div.container {
-	background-color: #F7F5E8;
-	border: 2px solid #E7D9C1;
-	box-shadow: 2px 2px 0px #6E6A5B;
-	max-width: 650px;
-	margin-left: auto;
-	margin-right: auto;
-	opacity: 0.9;
-	padding: 32px;
+
+div.enlight-sidebar {
+    background-color: #F7F5E8;
+    border: 2px solid #E7D9C1;
+    box-shadow: 2px 2px 0px #6E6A5B;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    opacity: 0.8;
+    padding: 0px;
 }
 
-div.container p {
-	font-family: 'Bree Serif';
-	color: #6E6A5B;
-	text-shadow: 1px 1px 1px #F7F5E8;
-	font-size: 18px;
+/* The navigation link list. */
+div.enlight-sidebar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
+
+/* The inactive links in the sidebar. */
+div.enlight-sidebar ul li {
+    font-family: 'Changa One';
+    font-size: 20px;
+    padding: 12px;
+}
+
+/* The currently selected link in the sidebar. */
+div.enlight-sidebar ul li.active {
+    background: linear-gradient(to bottom, rgba(183,1,1,1), rgba(153,0,0,1));
+}
+
+div.enlight-sidebar ul li.active a {
+    color: #E7D9C1;
+}
+
+/* Main area of the site. */
+div.enlight-mainbar {
+    background-color: #F7F5E8;
+    border: 2px solid #E7D9C1;
+    box-shadow: 2px 2px 0px #6E6A5B;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    opacity: 0.8;
+    padding: 32px;
+}
+
+div.enlight-mainbar p {
+    font-family: 'Bree Serif';
+    color: #6E6A5B;
+    text-shadow: 1px 1px 1px #F7F5E8;
+    font-size: 18px;
+}
+
+
 
 a {
-	text-decoration: none;
-	color: #b70101;
+    text-decoration: none;
+    color: #b70101;
 }
 
 a:hover {
-	color: #ac0809;
+    color: #ac0809;
 }
 
 hr {
-	width: 90%;
-	border-color: #b70101;
-	margin-top: 0px;
-	margin-bottom: 0px;
+    width: 90%;
+    border-color: #b70101;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }

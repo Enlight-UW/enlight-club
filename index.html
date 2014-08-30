@@ -1,36 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Club Enlight</title>
-    
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
-    
-    <script src="js/bootstrap.min.js"></script>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-    <script src="js/jquery-2.1.1.min.js"></script>
-    
-	<div style="margin-left: auto; margin-right: auto; text-align:center;">
-		<img src="Enlight256.png" alt="Enlight Fountain Control Group" />
-	</div>
-	<div class="container">
-		<hr />
-		<h6 class="date">July 2014</h6>
-		<hr />
-		<h1 style="text-align:center;">Enlight Fountain Control Group</h1>
-		<p>
-			Enlight will return better than ever in Fall 2014 with a new website and RESTful fountain control API &mdash; stay tuned!
-		</p>
-		<p>
-			In the meantime, subscribe to our <a href="https://mailman.cae.wisc.edu/listinfo/enlight-members">mailing list</a> for updates and announcements!
-		</p>
-		<p>
-			Our kickoff meeting will take place on <strong>Tuesday, September 9th</strong> at <strong>6pm</strong> outside of <strong>room 1099, first floor <a href="http://maps.wisc.edu/s/bzlu1p7x">Engineering Centers Building (ECB)</a></strong>.
-		</p>
-		
-	</div>
-</body>
+        <title>Enlight Fountain Control Group</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <script src="js/jquery-2.1.1.min.js"></script>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- Sidebar column -->
+                    <div class="enlight-sidebar">
+                        <ul>
+                            <li class="active"><a href="#">Enlight News</a></li>
+                            <li><a href="#">About Enlight</a></li>
+                            <li><a href="#">Photo Gallery</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="enlight-mainbar">
+                        <!-- Main column -->
+                        <h1 class="post-title">Enlight Fountain Control Group</h1>
+                        <p>
+                            Welcome to the website for the Enlight Fountain Control Group!
+                        </p>
+
+                        <!--
+                            Kickoff announcement
+                        -->
+                        <h6 class="date">August 2014</h6>
+                        <hr />
+                        <h1 class="post-title">2014-2015 Enlight Kickoff Meeting</h1>
+                        <p>
+                            Interested in learning more about Enlight? Sign up below to get a reminder about our kickoff meeting sent directly to your email! This also helps us gauge interest so we can plan activities accordingly.
+                        </p>
+                        <form action="interested/" method="post">
+                                <label for="wiscmail">Your @wisc:</label>
+                                <input type="email" name="wiscmail" class="form-control" placeholder="bucky@wisc.edu" />
+                                <label for="yourname" >Your name:</label>
+                                <input type="text" name="yourname" class="form-control" />
+                                <br /><button type="submit" class="btn btn-danger">Submit</button>
+                        </form>
+
+                        <!--
+                            Coming soon announcement
+                        -->
+                        <h6 class="date">July 2014</h6>
+                        <hr />
+                        <h1 class="post-title">Enlight Returns Fall 2014</h1>
+                        <p>
+                            Enlight will return better than ever in Fall 2014 with a new website and RESTful fountain control API &mdash; stay tuned!
+                        </p>
+                        <p>
+                            In the meantime, subscribe to our <a href="https://mailman.cae.wisc.edu/listinfo/enlight-members">mailing list</a> for updates and announcements!
+                        </p>
+                        <p>
+                            Our kickoff meeting will take place on <strong>Tuesday, September 9th</strong> at <strong>6pm</strong> outside of <strong>room 1099, first floor <a href="http://maps.wisc.edu/s/bzlu1p7x">Engineering Centers Building (ECB)</a></strong>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </body>
 </html>
