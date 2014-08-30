@@ -1,2 +1,11 @@
 nbproject/project.properties
 nbproject/project.xml
+action/.idea/action.iml
+action/.idea/encodings.xml
+action/.idea/misc.xml
+action/.idea/modules.xml
+action/.idea/scopes/scope_settings.xml
+action/.idea/vcs.xml
+action/.idea/workspace.xml
+*.pyc
+action/interested.txt
