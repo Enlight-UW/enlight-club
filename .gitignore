@@ -9,3 +9,4 @@ action/.idea/vcs.xml
 action/.idea/workspace.xml
 *.pyc
 action/interested.txt
+nbproject/private/private.xml
