@@ -14,10 +14,10 @@ def interested():
     if statinfo.st_size > 1024 * 1024 * 1024:
         return 'Something has gone wrong. Please send an email to akersten@wisc.edu telling him that the website is broken.'
 
-    with open('interested.txt', 'a') as f:
+    with open('signups.txt', 'a') as f:
         f.write('\n' + request.forms.wiscmail + ' ' + request.forms.yourname)
 
-    return '<script type="text/javascript">alert("Thank you for your interest! Keep an eye out for an email announcement about our kickoff meeting within the next few days!"); window.location="http://enlight.club";</script>'
+    return '<script type="text/javascript">alert("Thank you for your interest! Keep an eye on your email for our newsletters and event announcements!"); window.location="http://enlight.club";</script>'
 
 
 print("enlight.club backend server running.")

@@ -1,12 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Changa+One|Bree+Serif);
 
 body {
-    background-image: url('../Background.jpg');
+    background-image: url('../Background.jpg'); 
     background-size: cover;
     background-color: #6E6A5B;
     background-repeat: no-repeat;
-    background-position:0% 0%;
-    /*background-position: 50% 50%;*/
+    background-position: 50% 50%;
 }
 
 h1 {
